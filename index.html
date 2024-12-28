@@ -1,0 +1,626 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CarVilla</title>
+ <!-- favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.png"/>
+    <!-- favicon -->
+    <!-- links -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.19/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- links -->
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+  <!-- google fonts -->
+   <!-- font awsome -->
+   <script src="https://kit.fontawesome.com/b584887cdf.js" crossorigin="anonymous"></script>
+   <!-- font awsome -->
+    <style>
+     .font-poppins{
+        font-family: "Poppins", sans-serif;
+     }
+    </style>
+     <style>
+       /* smooth scrolling for entire document  */
+       html{
+        scroll-behavior: smooth;
+       }
+  </style> 
+
+</head>
+<body>
+   <!-- header start -->
+   <header class="" style="background-image: url(img/welcome-banner.jpg); background-position: center; opacity: 0.9;">
+         <!-- NAVBAR -->
+         <nav class="fixed top-0 left-0 w-full text-white z-50  bg-opacity-50">
+
+            <div class="navbar">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-black rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      -   <li><a class="text-base font-semibold hover:bg-transparent text-[#4e4ffa]">HOME</a></li>
+                      <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">SERVICE</a></li>
+                      <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">FEATURED CARS</a></li>
+                      <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">NEW CAR</a></li>
+                      <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">BRANDS</a></li>
+                      <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">CONTACT</a></li>
+                    </ul>
+                  </div>
+                  <a href="index.html" class="md:text-2xl text-xl font-bold text-white xl:ml-32 lg:ml-24 md:ml-20 ml-10">CARVILLA</a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-base font-semibold hover:bg-transparent text-[#4e4ffa]">HOME</a></li>
+                    <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">SERVICE</a></li>
+                    <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">FEATURED CARS</a></li>
+                    <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">NEW CAR</a></li>
+                    <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[#4e4ffa]">BRANDS</a></li>
+                    <li><a class="text-base font-semibold hover:bg-transparent text-white hover:text-[ ]">CONTACT</a></li>
+                  </ul>
+                </div>
+               
+              </div>
+            
+        </nav>
+          <!-- NAVBAR -->
+           <!-- banner -->
+           
+           <div class="hero min-h-screen text-white">
+            <div class="hero-content text-center">
+              <div class="">
+                <h1 class="lg:text-4xl md:text-2xl text-xl font-bold uppercase">get your desired car in resonable price</h1>
+                <p class="py-6 md:text-lg font-semibold">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br> incididunt ut labore et dolore magna aliqua.
+                </p>
+                <button class="btn btn-primary md:px-12 px-8 text-lg">Contact Us</button>
+              </div>
+            </div>
+          </div>
+           
+           <!-- banner -->
+   </header>
+   <!-- header end -->
+    <!-- main start -->
+     <main class="md:container md:mx-auto">
+       <!-- services -->
+       <section class="lg:my-24 md:my-16 my-8">
+    <!-- services list -->
+    <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+      <!-- item-1 -->
+    <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+        <figure class="px-10 pt-10">
+            <i class="fa-solid fa-car text-5xl"></i>
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title capitalize">largest dealership of car</h2>
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia</p>
+          <div class="card-actions">
+            <hr class="md:w-[25px] md:h-[3px] bg-[blue] md:mt-8 mt-4">
+          </div>
+        </div>
+      </div>
+      <!-- item-1 -->
+      <!-- item-2 -->
+    <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+        <figure class="px-10 pt-10">
+          <i class="fa-solid fa-screwdriver-wrench text-5xl"></i>
+        </figure>
+        <div class="card-body items-center text-center">
+          <h2 class="card-title capitalize">unlimited repair warrenty</h2>
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia</p>
+          <div class="card-actions">
+            <hr class="md:w-[25px] md:h-[3px] bg-[blue] md:mt-8 mt-4">
+          </div>
+        </div>
+      </div>
+    <!-- item-2 -->
+    <!-- item-3 -->
+    <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+        <figure class="px-10 pt-10">
+            <i class="fa-solid fa-file-lines text-5xl"></i>
+          </figure>
+          <div class="card-body items-center text-center">
+          <h2 class="card-title capitalize">insurence support</h2>
+          <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut den fugit sed quia</p>
+          <div class="card-actions">
+            <hr class="md:w-[25px] md:h-[3px] bg-[blue] md:mt-8 mt-4">
+          </div>
+        </div>
+      </div>
+    <!-- item-3 -->
+    </div>
+    <!-- services list -->
+</section>
+   <!-- services -->
+    <!-- newest cars -->
+    <section class="lg:my-24 md:my-16 my-8 bg-[#F8F9FB] lg:py-16 md:py-10 py-5">
+      
+         <!-- heading -->
+          <div class="text-center mb-8">
+              <p class=" capitalize">checkout the latest cars</p>
+              <h3 class="lg:text-4xl md:text-2xl text-xl font-semibold capitalize">newest cars</h3>
+              <!-- <hr class="md:w-[50px] md:h-[2px] bg-[blue] md:mt-2 "> -->
+              <div class="flex justify-center mt-4">
+                <hr class="md:w-[90px] md:h-[3px] bg-[blue] md:mt-2">
+              </div>         
+            </div>
+            <!-- heading -->
+            <!-- slider -->
+            <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+                <!-- hero part -->
+                <div class="hero">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img
+                        src="img/ncm1 (1).png"
+                        class="" />
+                      <div>
+                        <h1 class="text-2xl font-semibold">Chevorlate Camero ZA100</h1>
+                        <p class="py-6 text-base font-semibold text-gray-500">
+                         
+						Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                        <br> <br>
+                        sed ut peras undeomnis iste nutas error sit voluptatem accusantium doloremqye laudantium.
+											
+                        </p>
+                        <button class="btn btn-primary rounded-lg md:px-10 px-8 text-lg">View Details</button>
+                      </div>
+                    </div>
+                  </div>
+                <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide4" class="btn btn-circle">❮</a>
+              <a href="#slide2" class="btn btn-circle">❯</a>
+            </div>
+        </div>
+        <div id="slide2" class="carousel-item relative w-full">
+          <!-- hero part -->
+          <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="img/ncm2.png"
+                class="" />
+              <div>
+                <h1 class="text-2xl font-semibold">BMW Series-3 Wagon</h1>
+                <p class="py-6 text-base font-semibold text-gray-500">
+                 
+                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                <br> <br>
+                sed ut peras undeomnis iste nutas error sit voluptatem accusantium doloremqye laudantium.
+                                    
+                </p>
+                <button class="btn btn-primary rounded-lg md:px-10 px-8 text-lg">View Details</button>
+              </div>
+            </div>
+          </div>
+        <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+              <a href="#slide1" class="btn btn-circle">❮</a>
+              <a href="#slide3" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+        <div id="slide3" class="carousel-item relative w-full">
+           <!-- hero part -->
+           <div class="hero">
+            <div class="hero-content flex-col lg:flex-row">
+              <img
+                src="img/ncm3.png"
+                class="" />
+                <div>
+                <h1 class="text-2xl font-semibold">Ferrari 488 Superfast</h1>
+                <p class="py-6 text-base font-semibold text-gray-500">
+                 
+                  Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. 
+                  <br> <br>
+                  sed ut peras undeomnis iste nutas error sit voluptatem accusantium doloremqye laudantium.
+                  
+                </p>
+                <button class="btn btn-primary rounded-lg md:px-10 px-8 text-lg">View Details</button>
+              </div>
+            </div>
+          </div>
+        <!-- hero part -->
+          <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+            <a href="#slide2" class="btn btn-circle">❮</a>
+            <a href="#slide1" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+       
+<!-- slider -->
+</section>
+    <!-- newest cars -->
+     <!-- featured cars -->
+    <section class="lg:my-24 md:my-16 my-8">
+          <!-- heading -->
+          <div class="text-center mb-8">
+              <p class=" capitalize">checkout the featured cars</p>
+              <h3 class="lg:text-4xl md:text-2xl text-xl font-semibold capitalize">featured cars</h3>
+              
+              <div class="flex justify-center mt-4">
+                <hr class="md:w-[90px] md:h-[3px] bg-[blue] md:mt-2">
+              </div>         
+            </div>
+         <!-- heading -->
+         <!-- cars -->
+         <div class="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+         <!-- car-1 -->
+         <div class="">
+
+            <div class="card border-2 rounded-none md:pt-10 pt-5">
+              <figure class="border-b-2 md:pb-16 pb-8">
+                <img 
+              src="img/fc1.png"
+              alt="car" />
+          </figure>
+          <div class="card-body">
+           <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+           <p class="text-gray-500 text-sm">automatic</p>
+          </div>
+        </div>
+        
+        <div class="card-body">
+            <h2 class="card-title capitalize">BMW 6-series gran coupe</h2>
+            <p>$89,395</p>
+            <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+          </div>
+
+        </div>
+         <!-- car-1 -->
+         <!-- car-2 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc2.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">chevrolet camaro wmv20</h2>
+          <p>
+            $66,575
+            </p>
+            <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-3 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc3.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">lamborghini v520</h2>
+          <p>$125,250</p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-3 -->
+         <!-- car-4 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+              src="img/fc4.png"
+              alt="car" />
+            </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">audi a3 sedan</h2>
+          <p>$95,500
+          </p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-4 -->
+         <!-- car-5 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc4.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">infiniti z5</h2>
+          <p>$36,850</p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-5 -->
+         <!-- car-6 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc5.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">porsche 718 cayman</h2>
+          <p>$48,500</p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-6 -->
+         <!-- car-7 -->
+         <div class="">
+
+          <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc7.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+        <h2 class="card-title capitalize">bmw 8-series coupe</h2>
+          <p>$56,000</p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+         <!-- car-7 -->
+         <!-- car-8 -->
+         <div class="">
+
+           <div class="card border-2 rounded-none md:pt-10 pt-5">
+            <figure class="border-b-2 md:pb-16 pb-8">
+              <img 
+            src="img/fc1.png"
+            alt="car" />
+        </figure>
+        <div class="card-body">
+         <p class="text-gray-500 text-sm">model: 2017 <span class="text-gray-500 mx-2">3100 mi</span> <span class="text-gray-500">240HP</span></p>
+         <p class="text-gray-500 text-sm">automatic</p>
+        </div>
+      </div>
+      
+      <div class="card-body">
+          <h2 class="card-title capitalize">BMW xseries-6</h2>
+          <p>$75,800
+          </p>
+          <p class="text-gray-500">Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non.</p>
+        </div>
+
+      </div>
+      <!-- car-8 -->
+      
+      
+        </div>
+         <!-- cars -->
+    </section>
+     <!-- featured cars -->
+      <!-- what our clients say -->
+      <section class="lg:my-24 md:my-16 my-8 bg-[#F8F9FB] lg:py-24 md:py-16 py-8">
+        <!-- heading -->
+          <div class="text-center mb-8">
+
+            <h3 class="lg:text-4xl md:text-2xl text-xl font-semibold capitalize">what our clients say
+              </h3>
+              
+              <div class="flex justify-center mt-4">
+                <hr class="md:w-[90px] md:h-[3px] bg-[blue] md:mt-2">
+              </div>         
+            </div>
+         <!-- heading -->
+          <!-- clints -->
+          <div class="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3">
+          <!-- card-1 -->
+          <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/c1.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+            
+              <p class="md:text-lg text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officiis, ipsa quis expedita delectus pariatur natus saepe. Vero rerum quaerat suscipit quasi?</p>
+              <div class="md:mt-8 mt-4">
+              <h4 class="text-xl font-semibold capitalize">thomas lili</h4>
+              <h4 class="text-xl font-semibold capitalize">New Work</h4>
+              </div>
+            </div>
+          </div>
+          <!-- card-1 -->
+          <!-- card-2 -->
+          <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/c2.png"
+                alt="Shoes"
+                class="rounded-xl" />
+              </figure>
+            <div class="card-body items-center text-center">
+            
+              <p class="md:text-lg text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officiis, ipsa quis expedita delectus pariatur natus saepe. Vero rerum quaerat suscipit quasi?</p>
+              <div class="md:mt-8 mt-4">
+              <h4 class="text-xl font-semibold capitalize">romi rain</h4>
+              <h4 class="text-xl font-semibold capitalize">london</h4>
+              </div>
+            </div>
+          </div>
+          <!-- card-2 -->
+          <div class="card border-2 rounded-none md:py-10 py-5 hover:bg-[#4E4FFA] hover:text-white transition-[.3s]">
+            <figure class="px-10 pt-10">
+              <img
+                src="img/c3.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+            
+              <p class="md:text-lg text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi officiis, ipsa quis expedita delectus pariatur natus saepe. Vero rerum quaerat suscipit quasi?</p>
+              <div class="md:mt-8 mt-4">
+              <h4 class="text-xl font-semibold capitalize">jonh doe</h4>
+              <h4 class="text-xl font-semibold capitalize">washington</h4>
+              </div>
+            </div>
+          </div>
+          <!-- card-3 -->
+
+          </div>
+          <!-- clints -->
+      </section>
+      <!-- what our clients say -->
+      <!-- brands -->
+      <section class="lg:my-24 md:my-16 my-8">
+       
+     <div class="grid lg:grid-cols-6 md:grid-cols-2 grid-cols-1 lg:gap-10 md:gap-6 gap-3 lg:p-10">
+       <!-- logo-1 -->
+       <div class="">
+        <img src="img/br6.png" alt="car logo">
+       </div>
+       <!-- logo-1 -->
+       <!-- logo-2 -->
+       <div class="">
+        <img src="img/br1.png" alt="car logo">
+       </div>
+       <!-- logo-2 -->
+       <!-- logo-3 -->
+       <div class="">
+        <img src="img/br2.png" alt="car logo">
+       </div>
+       <!-- logo-3 -->
+       <!-- logo-4 -->
+       <div class="">
+         <img src="img/br3.png" alt="car logo">
+        </div>
+        <!-- logo-4 -->
+        <!-- logo-5 -->
+       <div class="">
+        <img src="img/br4.png" alt="car logo">
+       </div>
+       <!-- logo-5 -->
+       <!-- logo-6 -->
+       <div class="">
+         <img src="img/br5.png" alt="car logo">
+       </div>
+       <!-- logo-6 -->
+       
+      </div>
+
+    </section>
+    <!-- brands -->
+  </main>
+   <!-- main end -->
+    <!-- footer -->
+    <footer class="footer bg-[#2A2D54] text-white md:p-10 px-10 lg:py24 md:py-16 py-10">
+      <nav>
+        <a href="index.html" class="md:text-2xl text-xl font-bold text-white">CARVILLA</a>
+        <p class="text-base">Ased do eiusm tempor incidi ut <br> labore et dolore magnaian aliqua. Ut <br> enim ad minim veniam.</p>
+        <p class="text-base">info@themesine.com
+           <br>
+          +1 (885) 2563154554</p>
+
+      </nav>
+      <nav>
+        <h6 class="text-lg font-semibold uppercase text-white">about devloon</h6>
+        <a class="link link-hover text-base capitalize">About us</a>
+        <a class="link link-hover text-base capitalize">career</a>
+        <a class="link link-hover text-base capitalize">terms of service</a>
+        <a class="link link-hover text-base capitalize">privacy policy</a>
+      </nav>
+      <nav>
+        <h6 class="text-lg font-semibold uppercase text-white">top brands</h6>
+        <a class="link link-hover text-base capitalize">BMW</a>
+        <a class="link link-hover text-base capitalize">lamborghini</a>
+        <a class="link link-hover text-base capitalize">camaro</a>
+        <a class="link link-hover text-base capitalize">audi</a>
+        <a class="link link-hover text-base capitalize">infiniti</a>
+        <a class="link link-hover text-base capitalize">nissan</a>
+      </nav>
+      <nav>
+        <h6 class="text-lg font-semibold uppercase text-white mb-8"></h6>
+        <a class="link link-hover text-base capitalize">ferrari</a>
+        <a class="link link-hover text-base capitalize">porsche</a>
+        <a class="link link-hover text-base capitalize">land rover</a>
+        <a class="link link-hover text-base capitalize">aston martin</a>
+        <a class="link link-hover text-base capitalize">mersedes</a>
+        <a class="link link-hover text-base capitalize">opel</a>
+      </nav>
+      <form>
+        <h6 class="text-lg font-semibold uppercase text-white">Newsletter</h6>
+        <fieldset class="form-control lg:w-80">
+          <label class="label">
+            <span class="label-text text-gray-500 text-base">Subscribe to get latest news update and informations</span>
+          </label>
+          <div class="join">
+            <input
+              type="text"
+              placeholder="Add Email"
+              class="input input-bordered join-item bg-[#26294D]" />
+            <button class="btn bg-[#26294D] hover:bg-[#26294D] border-none join-item"><i class="fa-solid fa-arrow-right text-gray-500"></i></button>
+          </div>
+        </fieldset>
+      </form>
+    </footer>
+    <!-- footer -->
+  </body>
+</html>
